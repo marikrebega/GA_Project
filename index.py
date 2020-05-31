@@ -20,12 +20,16 @@ def main():
 
     if not target:
         gen = population.make_gen_selective()
-        for i in range(len(gen)):
-            print(gen[i])
-
+        print("Initial popultion: ", gen)
         res = ext_value.min_val(gen)
-        print("min = " + str(res))
-        print(selection.tournament(target, gen))
-        print(crossing.one_point_cross(selection.tournament(target, gen)))
+        print("The MINIMUM value of function = " + str(res))
+
+        for i in range(50):
+            new_gen = crossing.one_point_cross(selection.tournament(target, gen))
+            print(new_gen)
+
+            gen = new_gen
+            res = ext_value.min_val(gen)
+            print("The MINIMUM value of function = ", res, "\n")
 
 main()
