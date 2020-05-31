@@ -1,3 +1,4 @@
+import crossing
 import ext_value
 import population
 import selection
@@ -25,6 +26,6 @@ def main():
         res = ext_value.min_val(gen)
         print("min = " + str(res))
         print(selection.tournament(target, gen))
-
+        print(crossing.one_point_cross(selection.tournament(target, gen)))
 
 main()
