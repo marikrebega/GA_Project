@@ -34,16 +34,16 @@ def one_point_cross(father):
             for j in range(cross_point, len(dad)):
                 child1 += dad[j]
                 child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
+
             dad = "-0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -62,16 +62,15 @@ def one_point_cross(father):
             for j in range(cross_point, len(dad)):
                 child1 += dad[j]
                 child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "-0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
@@ -90,16 +89,15 @@ def one_point_cross(father):
             for j in range(cross_point, len(dad)):
                 child1 += dad[j]
                 child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -118,16 +116,15 @@ def one_point_cross(father):
             for j in range(cross_point, len(dad)):
                 child1 += dad[j]
                 child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
@@ -170,16 +167,15 @@ def two_point_cross(father):
             for j in range(cross_point[1], len(dad)):
                 child1 += mom[j]
                 child2 += dad[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "-0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -201,16 +197,15 @@ def two_point_cross(father):
             for j in range(cross_point[1], len(dad)):
                 child1 += mom[j]
                 child2 += dad[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "-0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
@@ -232,16 +227,15 @@ def two_point_cross(father):
             for j in range(cross_point[1], len(dad)):
                 child1 += mom[j]
                 child2 += dad[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -263,16 +257,15 @@ def two_point_cross(father):
             for j in range(cross_point[1], len(dad)):
                 child1 += mom[j]
                 child2 += dad[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
@@ -310,16 +303,15 @@ def mask_cross(father):
                 elif mask[j] == "0":
                     child1 += dad[j]
                     child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "-0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -339,16 +331,15 @@ def mask_cross(father):
                 elif mask[j] == "0":
                     child1 += dad[j]
                     child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "-0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
@@ -368,16 +359,15 @@ def mask_cross(father):
                 elif mask[j] == "0":
                     child1 += dad[j]
                     child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "-0b" + mom
             child1 = "-0b" + child1
@@ -397,16 +387,15 @@ def mask_cross(father):
                 elif mask[j] == "0":
                     child1 += dad[j]
                     child2 += mom[j]
-            if random.randrange(1, 100) == 1:
-                person = random.randrange(0, 4)
-                if person == 0:
-                    dad = mutate(dad)
-                elif person == 1:
-                    mom = mutate(mom)
-                elif person == 2:
-                    child1 = mutate(child1)
-                elif person == 3:
-                    child2 = mutate(child2)
+            person = random.randrange(0, 4)
+            if person == 0:
+                dad = mutate(dad)
+            elif person == 1:
+                mom = mutate(mom)
+            elif person == 2:
+                child1 = mutate(child1)
+            elif person == 3:
+                child2 = mutate(child2)
             dad = "0b" + dad
             mom = "0b" + mom
             child1 = "0b" + child1
